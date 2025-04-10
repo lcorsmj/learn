@@ -2,3 +2,4 @@ finish freecodecamp website responsive web design certification
 review websites knowledge for html/css
 
 4/8/2025 - learned headers ,text and anchor elements also learned how to refer to other pages 1- basics.
+4/10/2025 -learned basic css skills. 2 - CSS
