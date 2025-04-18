@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 4</title>
+    <style>
+
+        .item{
+            list-style-type: none;
+            margin: none; padding: none;
+            overflow: hidden;
+            background-color: #333;
+        }
+        .active{
+            background-color: #04AA6D;
+        }
+
+        .hover a:hover{
+            background-color: #111;
+        }
+
+        .item li {
+            float: left;
+        }
+
+        .item li a {
+            color: white;
+            padding-top: 14px; padding-bottom: 14px; padding-left: 16px; padding-right: 16px;
+            text-decoration: none;
+        }
+
+    </style>
 </head>
 <body>
+    <nav>
+        <ol class="item">
+            <li class="active"><a href="4_home.html">#home</a></li>
+            <li class="hover"><a href="4_news.html">#news</a></li>
+            <li class="hover"><a href="4_contact.html">#contact</a></li>
+            <li class="hover"><a href="4_about.html">#about</a></li>
+        </ol>
+    </nav>
     
 </body>
 </html>
