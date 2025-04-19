@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+        }
+        table{
+            margin: 1em;
+            border-collapse: collapse;
+            padding: 5px;
+            border: solid 1px gray;
+            text-align: center;
+            padding-left: 15px; padding-right: 15px;
+        }
+        th td{
+            border: 1px solid gray;
+            margin: 4px;
+            height: 50px;
+            
+        }
+        caption
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5px;
+            caption-side: bottom;
+        }
+        #image{
+            width: 150px;
+            min-width: 150px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        h1{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1 class="bold">Thomas More Kempen</h1>
+        <h2>Programmeren in dagonderwijs</h2>
+        <tr>
+            <th rowspan="3"><img id="image" src="thomas-more-logo_oranje_WEB.png" alt=""></th>
+            <th colspan="4"><h1>Graduaat (HBO5)</h1></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td class="bold" colspan="2">Schema</td>
+            <td class="bold" colspan="2" rowspan="2">Inhoud</td>
+        </tr>
+        <tr>
+            <td class="bold">Begin</td>
+            <td class="bold">Einde</td>
+        </tr>
+        <tr>
+            <td class="bold" rowspan="2">Woensdag</td>
+            <td>8:30</td>
+            <td>12:00</td>
+            <td colspan="2">Inleiding Hoger onderwijs</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Rondleiding op de campus</td>
+        </tr>
+        <tr>
+            <td class="bold" rowspan="3">Donderdag</td>
+            <td>8:30</td>
+            <td>12:00</td>
+            <td rowspan="3"><img src="koffie.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>10:45</td>
+            <td>14:30</td>
+        </tr>
+        <tr>
+            <td>14:30</td>
+            <td>15:30</td>
+        </tr>
+        <caption>Overzicht van de activiteiten</caption>
+    </table>
+    
+</body>
+</html>
